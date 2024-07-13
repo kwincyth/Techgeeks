@@ -1,0 +1,57 @@
+body{
+  margin: 0;  
+  background-image: url(skydiversimagenew.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image1{
+    width: 50px; 
+    height: 50px;
+    margin: 15px 0 0 100px;
+    /* border-radius: 50%; */
+}
+
+#title{
+    color: navy;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: -42px 0 0 160px;
+}
+
+.list{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin: -29px 24px 0 0;
+}
+
+.list li{
+    padding: 10px;
+    color: navy;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.desc{
+    text-align: center;
+    font-size: 68px;
+    color: navy;
+}
+
+button{
+    color: white;
+    background-color: navy;
+    border: none;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0 0 0 35rem;
+}
+
+button:hover{
+    color: navy;
+    background-color: white;
+}
